@@ -2,8 +2,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import pandas as pd
 
-CLIENT_ID = '1f7291a56f9d4823a96e583a46e3d12b'
-CLIENT_SECRET_KEY = '25a2b491a1cd4eb38b524492b1a620b7'
+CLIENT_ID = 'CLIENT_ID'
+CLIENT_SECRET_KEY = 'CLIENT_SECRET_KEY'
 REDIRECT_URI = 'https://developer.spotify.com/dashboard/applications/1f7291a56f9d4823a96e583a46e3d12b'
 
 scope = "user-read-currently-playing"
